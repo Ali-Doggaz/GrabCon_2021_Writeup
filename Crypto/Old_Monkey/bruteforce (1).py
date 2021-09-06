@@ -11,7 +11,7 @@ print(enc1[0]):
 
 
 #initialize i for the FIRST 1st enc. I don't know why, but i isn't equal to the ord of the first char. It's equal to ord(first_char)-1.
-i=6;
+i=enc1[0]-1;
 
 #init x
 x = "hjlgyjgyj10hadanvbwdmkw00OUONBADANKHM;IMMBMZCNihaillm"  #len(x) = 53
