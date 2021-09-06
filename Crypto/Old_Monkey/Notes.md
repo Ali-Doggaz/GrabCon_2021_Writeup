@@ -7,7 +7,8 @@ We immediately see that a "REDACTED" string (which is supposed to contain the fl
 Taking a look at that function, we see that it first defines a cst:    
 x = "hjlgyjgyj10hadanvbwdmkw00OUONBADANKHM;IMMBMZCNihaillm"
 
-Then we see that a random number 'i' is generated. Then, we see that the "out" string, which will contain the final encrypted string, will start with chr(i). 
+Then we see that a random number 'i' is generated. Then, we see that the "out" string, which will contain the final encrypted string, will start with chr(i).
+
 out = chr(i)
 
 So now we can get i from the first char of our encrypted string. Yay!
