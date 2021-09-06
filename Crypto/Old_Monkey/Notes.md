@@ -13,7 +13,7 @@ out = chr(i)
 
 So now we can get i from the first char of our encrypted string. Yay!
 
-After figuring out how to get i, we take a look at the next step, which is a loop that goes through our flag, and xor it with the iTH character of x
+After figuring out how to get i, we take a look at the next step, which is a loop that goes through our flag, and xor each char with the iTH character of x
 
         for c in text:
             out += chr(ord(c) ^ ord(self.x[i]))
